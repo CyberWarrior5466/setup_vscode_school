@@ -32,5 +32,5 @@ Go back to the `hello.py` file with `Alt+1`.
 Go on **Run > Run Without Debugging** `Ctrl+f5`.
 <br><br>![](11.png)<br><br>
 
-A terminal windows should pop up saying `Hello World!`
+A terminal windows should pop up saying `Hello World!` 🎉
 <br><br>![](12.png)
