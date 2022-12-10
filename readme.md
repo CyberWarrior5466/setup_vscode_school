@@ -1,5 +1,6 @@
 # How to setup vscode on a school computer
-*Created 10/12/2022 by Ali Saleem* <br><br>
+*Created 10/12/2022* 
+*This is done on Linux but the process on windows should be the same*<br><br>
 
 Open up Vscode
 <br>![](1.png)<br><br>
@@ -23,7 +24,7 @@ Type in `print("Hello World!)`
 Go on **Run > Add Configuration... > Python File**
 <br>![](7.png)<br>![](8.png)<br><br>
 
-Change the `"console"` value to `"externalTerminal"`. Use `Ctrl+Space` whilst typing to bring up autocompletions.
+Change the `"console"` field so it shows `"externalTerminal"`. Use `Ctrl+Space` whilst typing to bring up IntelliSense, and use `Tab` or `Enter` to accept the suggestion.
 <br>![](9.png)<br><br>
 
 Go back to the `hello.py` file. 
