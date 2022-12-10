@@ -1,6 +1,5 @@
 # How to setup vscode on a school computer
-*Created 10/12/2022* 
-*This is done on Linux but the process on windows should be the same*<br><br>
+*10/12/2022 This is done on Linux but the process on windows should be the same*<br><br>
 
 Open up Vscode
 <br>![](1.png)<br><br>
