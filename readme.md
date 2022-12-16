@@ -26,7 +26,7 @@ Go on **Run > Add Configuration... > Python File**
 Change the `"console"` field so it shows `"externalTerminal"`. Use `Ctrl+Space` whilst typing to bring up IntelliSense, and use `Tab` or `Enter` to accept the suggestion.
 <br><br>![](9.png)<br><br>
 
-Go back to the `hello.py` file with `Alt+1`.
+Click on `hello.py` to go back to it use `Alt+1` or `Ctrl+Tab` to cycle between tabs.
 <br><br>![](10.png)<br><br>
 
 Go on **Run > Run Without Debugging** `Ctrl+f5`.
