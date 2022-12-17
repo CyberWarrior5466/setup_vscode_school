@@ -13,7 +13,7 @@
    ![](assets/1.png)
 
 2. On the Activity Bar click on the Extensions `Ctrl+Shift+X` icon
-   and install the Python Extension.
+   and install the Python Extension. *Note: this step requires an internet connection so must be done before an examination begins.*
 
    ![](assets/2.png)
 
@@ -29,23 +29,23 @@
    
    ![](assets/5.png)
 
-7. Type in `print("Hello World!)`.
+6. Type in `print("Hello World!)`.
    
    ![](assets/6.png)
 
-8. Go on **Run > Add Configuration... > Python File**.
+7. Go on **Run > Add Configuration... > Python File**.
    
    ![](assets/7.png)![](assets/8.png)
 
-9.  Change the `"console"` field so it shows `"externalTerminal"`. Use `Ctrl+Space` whilst typing to bring up IntelliSense, and use `Tab` or `Enter` to accept the suggestion.
+8.  Change the `"console"` field so it shows `"externalTerminal"`. Use `Ctrl+Space` whilst typing to bring up IntelliSense, and use `Tab` or `Enter` to accept the suggestion.
     
    ![](assets/9.png)
 
-10. Go back to `hello.py` or use  `Alt+1` / `Ctrl+Tab` to cycle between tabs.
+9.  Go back to `hello.py` or use  `Alt+1` / `Ctrl+Tab` to cycle between tabs.
 
     ![](assets/10.png)
 
-11. Go on **Run > Run Without Debugging** `Ctrl+f5`.
+10. Go on **Run > Run Without Debugging** `Ctrl+f5`.
     You should be greeted with a terminal pop up saying `Hello World!`.
 
     ![](assets/11.png)![](assets/12.png)
