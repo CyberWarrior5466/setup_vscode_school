@@ -1,36 +1,72 @@
-# How to setup vscode on a school computer
-*10/12/2022 Note: This guide is done on Linux but the process on windows is the same.*<br><br>
+*Note: screenshots are taken on linux but they should look mostly the same on windows*
 
-Open up Vscode
-<br><br>![](1.png)<br><br>
+## contents
 
-On the Activity Bar click on the Extentions `Ctrl+Shift+X` icon
-and install the Python Extention.
-<br><br>![](2.png)<br><br>
+- [Setting up VS Code](#setting-up-vs-code)
+- [Installing pygubu designer](#installing-pygubu-designer)
 
-Go on **File > Open Folder...** `Ctrl+K Ctrl+O`
-<br><br>![](3.png)
+# Setting up VS Code
 
-Trust the workspace
-<br><br>![](4.png)<br><br>
 
-On the File Explorer Toolbar click on **New File...** <img src="new-file.svg" width="20em"/>. Name this file `hello.py` 
-<br><br>![](5.png)<br><br>
+1. Open up Vscode.
 
-Type in `print("Hello World!)`
-<br><br>![](6.png)<br><br>
+   ![](assets/1.png)
 
-Go on **Run > Add Configuration... > Python File**
-<br><br>![](7.png)<br><br>![](8.png)<br><br>
+2. On the Activity Bar click on the Extensions `Ctrl+Shift+X` icon
+   and install the Python Extension.
 
-Change the `"console"` field so it shows `"externalTerminal"`. Use `Ctrl+Space` whilst typing to bring up IntelliSense, and use `Tab` or `Enter` to accept the suggestion.
-<br><br>![](9.png)<br><br>
+   ![](assets/2.png)
 
-Click on `hello.py` to go back to it use `Alt+1` or `Ctrl+Tab` to cycle between tabs.
-<br><br>![](10.png)<br><br>
+3. Go on **File > Open Folder...** `Ctrl+K Ctrl+O`.
+   
+   ![](assets/3.png)
 
-Go on **Run > Run Without Debugging** `Ctrl+f5`.
-<br><br>![](11.png)<br><br>
+4. Trust the workspace.
+   
+   ![](assets/4.png)
 
-A terminal windows should pop up saying `Hello World!` 🎉
-<br><br>![](12.png)
+5. On the File Explorer Toolbar click on **New File...** <img src="assets/new-file.svg" width="20em"/>. Name this file `hello.py`.
+   
+   ![](assets/5.png)
+
+7. Type in `print("Hello World!)`.
+   
+   ![](assets/6.png)
+
+8. Go on **Run > Add Configuration... > Python File**.
+   
+   ![](assets/7.png)![](assets/8.png)
+
+9.  Change the `"console"` field so it shows `"externalTerminal"`. Use `Ctrl+Space` whilst typing to bring up IntelliSense, and use `Tab` or `Enter` to accept the suggestion.
+    
+   ![](assets/9.png)
+
+10. Go back to `hello.py` or use  `Alt+1` / `Ctrl+Tab` to cycle between tabs.
+
+    ![](assets/10.png)
+
+11. Go on **Run > Run Without Debugging** `Ctrl+f5`.
+    You should be greeted with a terminal pop up saying `Hello World!`.
+
+    ![](assets/11.png)![](assets/12.png)
+
+# Installing pygubu designer
+
+1. Run the command `pip install pygubu pygubu-designer` from the start menu. You should briefly see a command prompt window flash
+   
+   ![](assets/pygubu-1.png)
+   
+2. To run pygubu designer either do `python -m pygubudesigner` from the start menu
+   
+   ![](assets/pygubu-2.png)
+
+   Or alternatively create and run a new python file containing the following code
+
+   ```python
+   from pygubudesigner import main
+   main.start_pygubu()
+   ```
+
+   Afterwards Pygubu Designer should open
+
+   ![](assets/pygubu-3.png)
