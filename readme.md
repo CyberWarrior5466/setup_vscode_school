@@ -14,7 +14,6 @@
 
    <details>
 	 <summary>View Solution</summary>
-   
 	 ```python
 	 class Dastan:
 	   def __init__(self, R, C, NoOfPieces):
