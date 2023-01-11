@@ -1,12 +1,12 @@
 
-## contents
+### contents
 
 - [Dastan](#dastan)
 - [Setting up VS Code](#setting-up-vs-code)
 - [Installing pygubu designer](#installing-pygubu-designer)
 
 
-# Dastan
+## Dastan
 
 1. At the beginning of the game allow each player to enter their own name instead of `Player One` or `Player Two`
 
@@ -78,7 +78,7 @@
 
 
 
-# Setting up VS Code
+## Setting up VS Code
 *Note: screenshots are taken on linux but they should look mostly the same on windows*
 
 1. Open up Vscode.
@@ -123,7 +123,7 @@
 
     ![](assets/11.png)![](assets/12.png)
 
-# Installing pygubu designer
+## Installing pygubu designer
 
 1. Run the command `pip install pygubu pygubu-designer` from the start menu. You should briefly see a command prompt window flash
    
