@@ -10,7 +10,8 @@
 
 <!-- Q5 dastan wiki https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Skeleton_program/2023#Question_5 -->
 
-1. At the beginning of the game allow each player to enter their own name instead of `Player One` or `Player Two`  
+1. At the beginning of the game allow each player to enter their own name instead of `Player One` or `Player Two`
+
    <details>
 	 <summary>View Solution</summary>
 
@@ -25,6 +26,7 @@
 		   ...
 	 ```
    </details>
+
 2. Add a new move called `TibbleCross`. This move allows a piece to move up two spaces diagonally.
    <details>
 	 <summary>View Solution</summary>
@@ -59,7 +61,7 @@
 		self._Players[1].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", -1))
 		...
 	 ```
-   </details><br>
+   </details>
 
 $$\begin{bmatrix}
 \mathrm{X}& &   & & \mathrm{X} \\
