@@ -47,7 +47,7 @@
        self._MoveOptionOffer.append("tibblecross")
        self._MoveOptionOffer.append("jazair")
        ...
- 
+    
      def __CreateTibbleCrossMoveOption(self, Direction):
         NewMoveOption = MoveOption("tibblecorss")
         NewMove = Move(2 * Direction, 2 * Direction)
@@ -59,13 +59,13 @@
         NewMove = Move(-2 * Direction, -2 * Direction)
         NewMoveOption.AddToPossibleMoves(NewMove)
         return NewMoveOption
- 
+    
      def __CreateMoveOption(self, Name, Direction):
        if Name == "tibblecross":
-       return self.__CreateTibbleCrossMoveOption(Direction)
+          return self.__CreateTibbleCrossMoveOption(Direction)
        if Name == "chowkidar":
        ...
-     
+    
      def __CreateMoveOptions(self):
        self._Players[0].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", 1))
        ...
