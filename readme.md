@@ -44,33 +44,33 @@
 
    ```python
    def __CreateMoveOptionOffer(self):
-   self._MoveOptionOffer.append("tibblecross")
-   self._MoveOptionOffer.append("jazair")
-   ...
+      self._MoveOptionOffer.append("tibblecross")
+      self._MoveOptionOffer.append("jazair")
+      ...
 
-   def __CreateTibbleCrossMoveOption(self, Direction):
-   NewMoveOption = MoveOption("tibblecorss")
-   NewMove = Move(2 * Direction, 2 * Direction)
-   NewMoveOption.AddToPossibleMoves(NewMove)
-   NewMove = Move(2 * Direction, -2 * Direction)
-   NewMoveOption.AddToPossibleMoves(NewMove)
-   NewMove = Move(-2 * Direction, 2 * Direction)
-   NewMoveOption.AddToPossibleMoves(NewMove)
-   NewMove = Move(-2 * Direction, -2 * Direction)
-   NewMoveOption.AddToPossibleMoves(NewMove)
-   	return NewMoveOption
+    def __CreateTibbleCrossMoveOption(self, Direction):
+		NewMoveOption = MoveOption("tibblecorss")
+		NewMove = Move(2 * Direction, 2 * Direction)
+		NewMoveOption.AddToPossibleMoves(NewMove)
+		NewMove = Move(2 * Direction, -2 * Direction)
+		NewMoveOption.AddToPossibleMoves(NewMove)
+		NewMove = Move(-2 * Direction, 2 * Direction)
+		NewMoveOption.AddToPossibleMoves(NewMove)
+		NewMove = Move(-2 * Direction, -2 * Direction)
+		NewMoveOption.AddToPossibleMoves(NewMove)
+		return NewMoveOption
 
-   def __CreateMoveOption(self, Name, Direction):
-   if Name == "tibblecross":
-   return self.__CreateTibbleCrossMoveOption(Direction)
-   if Name == "chowkidar":
-   ...
+    def __CreateMoveOption(self, Name, Direction):
+      if Name == "tibblecross":
+      return self.__CreateTibbleCrossMoveOption(Direction)
+      if Name == "chowkidar":
+      ...
 
-   def __CreateMoveOptions(self):
-   self._Players[0].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", 1))
-   ...
-   self._Players[1].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", -1))
-   ...
+    def __CreateMoveOptions(self):
+      self._Players[0].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", 1))
+      ...
+      self._Players[1].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", -1))
+      ...
    ```
    </details>
 
