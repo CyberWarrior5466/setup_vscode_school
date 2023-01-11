@@ -29,51 +29,51 @@
 
 2. Add a new move called `TibbleCross`. This move allows a piece to move up two spaces diagonally.
 
-$$\begin{bmatrix}
-\mathrm{X}& &   & & \mathrm{X} \\
-          & &   & &            \\
-          & & * & &            \\
-          & &   & &            \\
-\mathrm{X}& &   & & \mathrm{X}
-\end{bmatrix}$$
+   $$\begin{bmatrix}
+   \mathrm{X}& &   & & \mathrm{X} \\
+             & &   & &            \\
+             & & * & &            \\
+             & &   & &            \\
+   \mathrm{X}& &   & & \mathrm{X}
+   \end{bmatrix}$$
   
    -  This move should appear first in the queue
 
    -  To test this move the piece from the co-ordinate "22" to "44" 
   
    <details>
-	 <summary>View Solution</summary>
-   
-	```python
-	def __CreateMoveOptionOffer(self):
-		self._MoveOptionOffer.append("tibblecross")
-		self._MoveOptionOffer.append("jazair")
-		...
+   <summary>View Solution</summary>
 
-	def __CreateTibbleCrossMoveOption(self, Direction):
-		NewMoveOption = MoveOption("tibblecorss")
-		NewMove = Move(2 * Direction, 2 * Direction)
-		NewMoveOption.AddToPossibleMoves(NewMove)
-		NewMove = Move(2 * Direction, -2 * Direction)
-		NewMoveOption.AddToPossibleMoves(NewMove)
-		NewMove = Move(-2 * Direction, 2 * Direction)
-		NewMoveOption.AddToPossibleMoves(NewMove)
-		NewMove = Move(-2 * Direction, -2 * Direction)
-		NewMoveOption.AddToPossibleMoves(NewMove)
-  		return NewMoveOption
-	
-	def __CreateMoveOption(self, Name, Direction):
-		if Name == "tibblecross":
-			return self.__CreateTibbleCrossMoveOption(Direction)
-		if Name == "chowkidar":
-		...
+   ```python
+   def __CreateMoveOptionOffer(self):
+   self._MoveOptionOffer.append("tibblecross")
+   self._MoveOptionOffer.append("jazair")
+   ...
 
-	def __CreateMoveOptions(self):
-		self._Players[0].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", 1))
-		...
-		self._Players[1].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", -1))
-		...
-	 ```
+   def __CreateTibbleCrossMoveOption(self, Direction):
+   NewMoveOption = MoveOption("tibblecorss")
+   NewMove = Move(2 * Direction, 2 * Direction)
+   NewMoveOption.AddToPossibleMoves(NewMove)
+   NewMove = Move(2 * Direction, -2 * Direction)
+   NewMoveOption.AddToPossibleMoves(NewMove)
+   NewMove = Move(-2 * Direction, 2 * Direction)
+   NewMoveOption.AddToPossibleMoves(NewMove)
+   NewMove = Move(-2 * Direction, -2 * Direction)
+   NewMoveOption.AddToPossibleMoves(NewMove)
+   	return NewMoveOption
+
+   def __CreateMoveOption(self, Name, Direction):
+   if Name == "tibblecross":
+   return self.__CreateTibbleCrossMoveOption(Direction)
+   if Name == "chowkidar":
+   ...
+
+   def __CreateMoveOptions(self):
+   self._Players[0].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", 1))
+   ...
+   self._Players[1].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", -1))
+   ...
+   ```
    </details>
 
 
