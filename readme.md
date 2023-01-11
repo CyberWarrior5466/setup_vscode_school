@@ -44,7 +44,7 @@
 
     ```python
     def __CreateMoveOptionOffer(self):
-       self._MoveOptionOffer.append("tibblecross")
+       self._MoveOptionOffer.append("tibblecross")  ##
        self._MoveOptionOffer.append("jazair")
        ...
     
@@ -61,8 +61,8 @@
         return NewMoveOption
     
      def __CreateMoveOption(self, Name, Direction):
-       if Name == "tibblecross":
-          return self.__CreateTibbleCrossMoveOption(Direction)
+       if Name == "tibblecross":                                ##
+          return self.__CreateTibbleCrossMoveOption(Direction)  ##
        if Name == "chowkidar":
        ...
     
