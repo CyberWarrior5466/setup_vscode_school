@@ -65,7 +65,7 @@
       return self.__CreateTibbleCrossMoveOption(Direction)
       if Name == "chowkidar":
       ...
-
+	
     def __CreateMoveOptions(self):
       self._Players[0].AddToMoveOptionQueue(self.__CreateMoveOption("tibblecross", 1))
       ...
