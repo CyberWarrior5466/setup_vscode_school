@@ -24,7 +24,7 @@
 		   self._Players.append(Player(input("Player Two enter name: "), -1))  ##
 		   ...
 	 ```
-   </details><br>
+   </details>
 2. Add a new move called `TibbleCross`. This move allows a piece to move up two spaces diagonally.
    <details>
 	 <summary>View Solution</summary>
