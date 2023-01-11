@@ -14,7 +14,7 @@
 
    <details>
 	 <summary>View Solution</summary>
-    
+
 	 ```python
 	 class Dastan:
 	   def __init__(self, R, C, NoOfPieces):
@@ -26,7 +26,6 @@
 		   ...
 	 ```
    </details><br>
-
 
 2. Add a new move called `TibbleCross`. This move allows a piece to move up two spaces diagonally.
    <details>
