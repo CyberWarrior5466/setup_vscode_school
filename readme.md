@@ -28,6 +28,19 @@
    </details>
 
 2. Add a new move called `TibbleCross`. This move allows a piece to move up two spaces diagonally.
+
+$$\begin{bmatrix}
+\mathrm{X}& &   & & \mathrm{X} \\
+          & &   & &            \\
+          & & * & &            \\
+          & &   & &            \\
+\mathrm{X}& &   & & \mathrm{X}
+\end{bmatrix}$$
+  
+   -  This move should appear first in the queue
+
+   -  To test this move the piece from the co-ordinate "22" to "44" 
+  
    <details>
 	 <summary>View Solution</summary>
    
@@ -62,18 +75,6 @@
 		...
 	 ```
    </details>
-
-$$\begin{bmatrix}
-\mathrm{X}& &   & & \mathrm{X} \\
-          & &   & &            \\
-          & & * & &            \\
-          & &   & &            \\
-\mathrm{X}& &   & & \mathrm{X}
-\end{bmatrix}$$
-  
--  This move should appear first in the queue
-
--  To test this move the piece from the co-ordinate "22" to "44" 
 
 
 
